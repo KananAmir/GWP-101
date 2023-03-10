@@ -1,0 +1,115 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+h1 {
+  font-size: 16px;
+  text-decoration: underline;
+  color: beige;
+  background-color: cyan;
+}
+
+.text-red {
+  color: red;
+}
+.text-blue {
+  color: blue;
+}
+
+.text-blue.font-24 {
+  font-size: 50px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.container a {
+  color: brown;
+}
+
+.container .info {
+  font-size: 10px;
+}
+
+/* p,
+div {
+  background-color: bisque;
+} */
+
+div p {
+  color: red;
+}
+div + p {
+  color: teal;
+}
+
+a[target="_blank"] {
+  color: red;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.box-info {
+  display: none;
+}
+.box:hover {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+}
+.box:hover .box-info {
+  display: block;
+}
+
+#username {
+  outline: none;
+  border: 2px solid red;
+}
+#username:focus {
+  /* background-color: rgb(190, 190, 67); */
+  color: brown;
+}
+
+#username:focus::placeholder {
+  color: transparent;
+}
+
+ul li:nth-child(odd) {
+  background-color: darkgoldenrod;
+}
+ul li:nth-child(even) {
+  background-color: rgb(11, 184, 178);
+}
+
+ul li:first-child {
+  background-color: aqua;
+}
+ul li:last-child {
+  background-color: black;
+}
+
+div ul li a {
+  color: blueviolet;
+}
+
+.btn {
+  background-color: teal;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}

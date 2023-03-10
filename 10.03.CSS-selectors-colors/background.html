@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background - CSS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li a {
+        color: #fff;
+      }
+      .logo {
+        width: 50px;
+      }
+
+      #hero-banner {
+        height: 100vh;
+        background-color: darkgoldenrod;
+        background-image: url("./images/bg.jpg");
+        background-repeat: no-repeat;
+        /* background-size: contain;
+        background-size: cover; */
+        background-position: bottom left;
+        background-attachment: fixed;
+      }
+      #team {
+        height: 100vh;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./images/gdu.png" alt="" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero-banner"></section>
+    <section id="team"></section>
+  </body>
+</html>
