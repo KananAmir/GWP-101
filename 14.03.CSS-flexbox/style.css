@@ -1,0 +1,21 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #c21616;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.link {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: aqua;
+  width: 200px;
+}
+
+/* .box2 {
+  float: right;
+}
+.box3 {
+  float: left;
+} */
